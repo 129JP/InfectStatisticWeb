@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="highcharts.js"></script>
+  <script>
+    $(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: '疫情人数图'
+        },
+        subtitle: {
+            text: '数据真实'
+        },
+        xAxis: {
+            categories: ['2.10', '2.11', '2.12', '2.13', '2.14', '2.15', '2.16', '2.17', '2.18', '2.19', '2.20', '2.21', '2.22', '2.23', '2.24']
+        },
+        yAxis: {
+            title: {
+                text: '人数/人'
+            }
+        },
+        tooltip: {
+            enabled: false,
+            formatter: function() {
+                return '<b>'+ this.series.name +'</b>'+this.x +': '+ this.y +'人';
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: '累计确诊',
+            data: [239,251,265,283,291,300,301,302,306,307,308,309,311,311,311]
+        }, ]
+    });
+});
+  </script>
+</head>
+<body>
+  <div id="container" style="min-width:700px;height:400px"></div>
+</body>
+</html>
