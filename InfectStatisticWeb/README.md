@@ -36,8 +36,6 @@
 4.其余功能。
 + 在html页面显示该省份对应的感染患者人数、疑似患者人数、治愈人数、死亡人数;
 + 某具体的省份可以点击按钮返回首页;
-**结构功能图如下:**
-<img src="https://images.cnblogs.com/cnblogs_com/221701106-lxy/1671720/o_200316073616%E7%96%AB%E6%83%85%E7%BB%9F%E8%AE%A1%E5%8F%AF%E8%A7%86%E5%8C%96.png" alt="flag">
 
-###运行
-<img src="https://images.cnblogs.com/cnblogs_com/221701106-lxy/1671720/o_200316072131%E5%8A%9F%E8%83%BD1.gif" alt="flag">
+更多介绍访问博客
+[结对第二次作业——某次疫情统计可视化的实现](https:////www.cnblogs.com/gjinpn/p/12504974.html)
